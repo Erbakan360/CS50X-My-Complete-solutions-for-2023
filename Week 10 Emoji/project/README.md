@@ -1,0 +1,17 @@
+# Citipedia
+#### Video Demo:  <https://youtu.be/QLTM_rL4wVg>
+#### Description:
+
+Citipedia is an innovative web application that has been designed to provide a comprehensive and user-friendly experience for anyone seeking information about cities around the world. The program is useful for anyone who needs quick and easy access to key city data. In this description, we will take a closer look at some of the key features and benefits of Citipedia.
+
+One of the aspects of Citipedia is its ability to handle a wide range of potential input errors. For instance, the web application can detect and handle cases where numeric values are entered into the input field or where the field is left empty. This feature makes Citipedia highly intuitive and easy to use, as users can simply type in the name of the city they are interested in without worrying about formatting or other technical issues.
+
+Another important feature of Citipedia is its non-case sensitive design, which means that users can enter city names in any combination of upper and lower case letters. This feature adds to the convenience and accessibility of the program, as users do not have to worry about getting the case of city names exactly right. Additionally, Citipedia provides an "Invalid city" error message to guide users towards the correct spelling if they accidentally misspell the name of a city.
+
+Citipedia has been designed with ease of use in mind, and does not require users to log in or create an account in order to access city data. Instead, all users need to do is input the name of the city they are interested in, and Citipedia takes care of the rest. This feature makes Citipedia highly convenient and user-friendly, as users can quickly and easily access city data without having to go through a complex registration process.
+
+One of the key data sources powering Citipedia is the World Cities Database, which is a comprehensive and reliable source of information about cities around the world. This database provides Citipedia with a wealth of data about each city, including its name, country, population, latitude, and longitude. This data is presented in a clear and organized table format, making it easy for users to quickly and easily find the information they need.
+
+Although Citipedia already offers a wealth of useful data about cities around the world, I am looking for ways to improve and expand its features. For example, I considered adding a timezone feature to Citipedia, which would allow users to find the timezone of a given city using its longitude and latitude values. While this feature was not ultimately implemented due to technical challenges, I am exploring new ideas and ways to make Citipedia an even more powerful tool for users in the future.
+
+In summary, Citipedia is a user-friendly web application that provides easy access to key information about cities around the world. Its ability to handle a wide range of input errors, non-case sensitive design, and ease of use make it a valuable tool for anyone seeking city data. With its reliable data source and ongoing development, Citipedia is a powerful and innovative tool that will continue to grow in popularity and usefulness in the years to come.

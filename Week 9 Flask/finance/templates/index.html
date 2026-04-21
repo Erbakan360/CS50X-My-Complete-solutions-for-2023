@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    index
+{% endblock %}
+
+{% block main %}
+
+    <h5> Total Value {{ Total | usd}} </h5>
+    <h6> Current Balance {{ Balance | usd }} </h6>
+
+    <table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Symbol</th>
+            <th>Name</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>TOTAL</th>
+        </tr>
+    </thead>
+    <tbody>
+
+            {% for i in data %}
+                {% if i["quantity"] > 0 %}
+                <tr>
+                    <td>{{ i["symbol"].upper() }}</td>
+                    <td>{{ i["name"] }} </td>
+                    <td>{{ i["quantity"] }}</td>
+                    <td>{{ price[i["symbol"]] | usd }}</td>
+                    <td>{{ Value[i["symbol"]] | usd }}</td>
+                </tr>
+                {% endif %}
+            {%endfor%}
+
+    </tbody>
+    </table>
+
+
+{% endblock %}

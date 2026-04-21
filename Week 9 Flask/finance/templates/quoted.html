@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+
+    <h1> Quote </h1>
+
+    <main class="container p-5">
+        <p> A share of {{ foo["name"] }} ({{ foo["symbol"] }}) costs {{ foo["price"] | usd }}. <p>
+        <p> With your current balance, ({{ bar | usd }}) you can purchase {{ affordable | round }}. </p>
+    </main>
+
+
+
+{% endblock %}

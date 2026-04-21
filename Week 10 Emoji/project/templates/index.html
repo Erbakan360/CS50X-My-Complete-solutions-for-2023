@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+    <form action="/City" method="POST">
+        <input class="form-control" autocomplete="off" autofocus="" id="CurrentCity" name="CurrentCity" type="text" placeholder="City">
+        <br>
+        <button id="submit" class="btn btn-primary" type="submit"> Search </button>
+    </form>
+
+{% endblock %}

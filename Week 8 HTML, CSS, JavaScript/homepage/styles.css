@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    font-size: 22px;
+}
+
+button {
+    background-color: pink;
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: pink;
+    color: White;
+    padding: 5px;
+}
+
+a {
+    color: black;
+}
+
+footer {
+    background-color: pink;
+    font-size: 15px;
+    padding: 2px;
+}

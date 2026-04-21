@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+    {% if check == 0 %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th> City </th>
+                <th> Latitude </th>
+                <th> Longitude </th>
+                <th> Country </th>
+                <th> Population </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> {{ City }} </td>
+                <td> {{ Latitude }} </td>
+                <td> {{ Longitude }} </td>
+                <td> {{ Country }} </td>
+                <td> {{ Population }} </td>
+            </tr>
+        </tbody>
+
+    {% else %}
+    <p style="background: #ff8080;
+              padding: 10px !important;
+              border-radius: 0 !important;
+              color: white;
+              position: relative;
+              margin-top: 10px;
+              border-style: dashed;
+              border-color: red;">
+        {{ error }}
+    </p>
+    {% endif %}
+
+{% endblock %}

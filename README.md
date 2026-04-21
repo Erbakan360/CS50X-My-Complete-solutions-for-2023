@@ -10,3 +10,6 @@ The projects in this repository track my progress through the following topics:
     Python: High-level scripting, automation, and data analysis.
     SQL: Relational database design and complex querying.
     Web Development: Front-end (HTML/CSS/JS) and back-end (Flask).
+
+
+Course: https://cs50.harvard.edu/x/2023/

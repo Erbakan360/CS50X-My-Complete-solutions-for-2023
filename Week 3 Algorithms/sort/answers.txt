@@ -1,0 +1,43 @@
+sort1 uses: Bubble sort
+
+How do you know?: Takes longest to sort a list/array, even when sorted. Takes ~same amount of time to sort an unsorted as it does to sort a sorted list/array.
+
+sort2 uses: Merge sort
+
+How do you know?: Because it sorts the fastest for an unsorted list/ array
+
+sort3 uses: Selection sort
+
+How do you know?: For sorted lists/array it takes the least amount of time to "sort" through. O(n)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Explanations ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Bubble sort: It takes longer for Bubble sort to sort unsorted arrays, than sorted arrays.
+- Merge sort: Because it sorts the fastest for an unsorted array.
+- Selection sort: Takes ~same amount of time to sort both lists with same number of items.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Tests ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+'sort1' on 'sorted5000.txt' took '0m0.087s real' amount of time.
+'sort2' on 'sorted5000.txt' took '0m0.024s real' amount of time.
+'sort3' on 'sorted5000.txt' took '0m0.066s real' amount of time.
+
+
+'sort1' on 'random5000.txt' took '0m0.117s real' amount of time.
+'sort2' on 'random5000.txt' took '0m0.049s real' amount of time.
+'sort3' on 'random5000.txt' took '0m0.060s real' amount of time.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Increased Sample size ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+'sort1' on 'reversed5000.txt' took '0m0.092s real' amount of time.
+'sort2' on 'reversed5000.txt' took '0m0.049s real' amount of time.
+'sort3' on 'reversed5000.txt' took '0m0.094s real' amount of time.
+
+
+'sort3' on 'reversed10000' took '0m0.188s real' amount of time.
+'sort2' on 'reversed10000' took '0m0.047s real' amount of time.
+'sort1' on 'reversed10000' took '0m0.360s real' amount of time.
+
+'sort3' on 'random50000.txt' took '0m3.805s real' amount of time.
+'sort1' on 'random50000.txt' took '0m7.514s real' amount of time.
+'sort2' on 'random50000.txt' took '0m1.140s real' amount of time.

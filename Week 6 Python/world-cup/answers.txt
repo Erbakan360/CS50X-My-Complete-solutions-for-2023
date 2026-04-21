@@ -1,0 +1,19 @@
+Times:
+simulation 2019w.csv
+10 simulations: 0m0.032s
+100 simulations: 0m0.031s
+1000 simulations: 0m0.036s
+10000 simulations: 0m0.097s
+100000 simulations: 0m0.917s
+1000000 simulations: 0m7.078s
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?: TODO
+
+With a small number of simulations the chances of winning between teams varied a lot more, as the number of simulations increased and the data become streamlined, the prediction for Englands chance of winning was far too high in the small simulations as compared to the larger simulations
+
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?: TODO
+
+It seems like the predictions before 10000 were roughly the same time. the time taken grew exponentially for simulations larger then 10

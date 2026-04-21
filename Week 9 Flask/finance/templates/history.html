@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    history
+{% endblock %}
+
+{% block main %}
+
+    <h1> History </h1>
+
+    <table class="table table-striped">
+        <thead>
+            <th> Name </th>
+            <th> Symbol </th>
+            <th> Amount </th>
+            <th> Time</th>
+            <th> Day </th>
+        </thead>
+        <tbody>
+            {% for i in input%}
+            <tr>
+                <td> {{ i["name"] }} </td>
+                <td> {{ i["symbol"] }} </td>
+                <td> {{ i["amount"] | usd }} </td>
+                <td> {{ i["time"] }} </td>
+                <td> {{ i["day"] }} </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}
