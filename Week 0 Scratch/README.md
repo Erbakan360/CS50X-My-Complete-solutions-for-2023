@@ -6,6 +6,8 @@ Features custom-animated sprites, user-interactive controls, and coordinated sou
 
 Tech: Scratch 3.0.
 
+Task requirements: https://cs50.harvard.edu/x/2022/psets/0/
+
 # How to run
 
 Go to Scratch website: https://scratch.mit.edu/projects/editor/?tutorial=getStarted
