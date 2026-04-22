@@ -4,6 +4,12 @@
 
 **readability.c**: Implements the Coleman-Liau index to compute the approximate reading grade level of a text.
 
-**caesar.c**: Programs to encrypt messages using either a simple shift cipher (Caesar) or a 26-character key (Substitution).
+**caesar.c**: A program to encrypt messages using a simple shift cipher (Caesar).
 
 **Task requirements:** https://cs50.harvard.edu/x/2023/psets/2/
+
+# How to run
+
+1. Open your terminal.
+2. Compile the code: `make filename`.
+3. Execute the program: `./filename` followed by any required command-line arguments (e.g., `./caesar 13`).
